@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # Load data
-df_hist = pd.read_csv(r"C:\Users\kshit\Desktop\crapx\New folder\Loksabha_1962-2019 .csv")
+df_hist = pd.read_csv(r"C:\Users\kshit\Desktop\crapx\New folder\Loksabha_1962-2024.csv")
 geo = gpd.read_file(r"C:\Users\kshit\Desktop\crapx\New folder\india_pc_2019_simplified.geojson")
 
 # Clean data and preprocess
